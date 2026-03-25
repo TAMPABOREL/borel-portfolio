@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampa Kengne Borel | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+  <!--  <nav>
+        <div class="nav-logo">Tampa Borel</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav> -->
+
+    <!-- NAVIGATION -->
+<nav>
+    <div class="nav-logo">
+        Tampa Borel <span class="nav-title">Data Analyst</span>
+    </div>
+    <div class="nav-right">
+        <ul class="nav-social">
+            <li><a href="https://github.com/TAMPABOREL" target="_blank">⬡ GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/borel-tampa-861379309/" target="_blank">in LinkedIn Profile</a></li>
+            <li><a href="CV.pdf" download>⬇ Download Resume</a></li>
+        </ul>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#projects" onclick="toggleMenu()">Projects</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+    <!-- HERO SECTION 
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Tampa Kengne Borel Landry</span></h1>
+            <h2>Junior Data Analyst</h2>
+            <p>I am a Junior Data Analyst based in Douala, Cameroon, 
+            passionate about turning raw data into meaningful insights. 
+            I specialize in Python, SQL, Power BI and Excel to analyze 
+            data and build interactive dashboards. I enjoy solving 
+            real-world problems through data.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section> -->
+
+    <!-- HERO SECTION -->
+<section id="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Tampa Kengne Borel Landry</span></h1>
+            <h2>Junior Data Analyst</h2>
+            <p>I am a Junior Data Analyst based in Douala, Cameroon,
+            passionate about turning raw data into meaningful insights.
+            I specialize in Python, SQL, Power BI and Excel to analyze
+            data and build interactive dashboards. I enjoy solving
+            real-world problems through data.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn-outline">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-photo">
+            <img src="photo.jpg" alt="Tampa Borel">
+        </div>
+    </div>
+</section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-photo">
+                <img src="photo.jpg" alt="Tampa Borel">
+            </div>
+            <div class="about-text">
+                <p>I am a Junior Data Analyst based in Douala, Cameroon, 
+                passionate about turning raw data into meaningful insights. 
+                I specialize in Python, SQL, Power BI and Excel to analyze 
+                data and build interactive dashboards. I enjoy solving 
+                real-world problems through data.</p>
+                <br>
+                <p>📍 Douala, Cameroon</p>
+                <p>📧 tampaborel03@gmail.com</p>
+                <p>📞 +237 697 895 512</p>
+                <br>
+                <a href="https://www.linkedin.com/in/borel-tampa-861379309/" 
+                   class="btn" target="_blank">LinkedIn Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Pandas</div>
+            <div class="skill-card">NumPy</div>
+            <div class="skill-card">Matplotlib</div>
+            <div class="skill-card">SQL</div>
+            <div class="skill-card">Power BI</div>
+            <div class="skill-card">Excel</div>
+            <div class="skill-card">Jupyter Notebook</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Loan Default & Credit Risk Analysis</h3>
+                <p class="project-tag">Python · SQL · Matplotlib</p>
+                <p>Analysis of 1,000 loan records from the Cameroon 
+                banking sector to identify key default risk factors 
+                by region, loan purpose and credit score.</p>
+                <a href="https://github.com/TAMPABOREL/loan-risk-cameroon" 
+                   class="btn" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <p>Feel free to reach out for collaborations or opportunities!</p>
+            <br>
+            <p>📧 tampaborel03@gmail.com</p>
+            <p>📞 +237 697 895 512</p>
+            <br>
+            <a href="mailto:tampaborel03@gmail.com" class="btn">Send Email</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Tampa Kengne Borel Landry. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
