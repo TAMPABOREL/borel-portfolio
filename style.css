@@ -804,3 +804,23 @@ footer {
     .projects-grid { grid-template-columns: 1fr; }
     .skills-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ── DOWNLOAD CV BUTTON ── */
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--blue);
+    color: var(--white);
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: var(--transition);
+    white-space: nowrap;
+}
+
+.btn-download:hover {
+    background: var(--blue-dark);
+    transform: translateY(-2px);
+}
